@@ -1,1 +1,13 @@
-node_modules/ 
+# Node.js bağımlılıkları
+node_modules/
+
+# Çıktı klasörleri
+build/
+dist/
+
+# Çalışma ortamı dosyaları
+.env
+
+# Submodules
+client/node_modules/
+client/build/

@@ -77,18 +77,18 @@ Lonca/
 
 ---
 ##  🌐 API Dokümantasyonu
-# Dashboard
+#### Dashboard
 GET /dashboard
 Dashboard verilerini döner.
 
 GET /top-vendor
 En çok satış yapan tedarikçiyi döner.
 
-# Tedarikçi Yönetimi
+#### Tedarikçi Yönetimi
 GET /vendors
 Tüm tedarikçileri döner.
 
-# Satış Verileri
+#### Satış Verileri
 GET /sales/monthly-sales
 Tüm tedarikçilerin aylık satış verilerini döner:
 

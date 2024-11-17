@@ -127,6 +127,7 @@ Belirli bir tedarikçinin ürün satış verilerini döner.
 
 **Açıklama:**
 - **Farklı Grafik Seçenekleri:** Grafiklerde bar, line ve area gibi farklı görselleştirme seçenekleri bulunmaktadır.
+- **Select Table:** Kullanıcı, tıklayıp istediği tedarikçiyi seçerek ilgili bilgilere kolayca ulaşabilir.
 
 ---
 

@@ -28,7 +28,7 @@ Bu proje, tedarikçilerin satış verilerini görselleştirmek ve yönetmek içi
 
 ---
 
-## 🚀 Kurulum Adımları
+##  🚀 Kurulum Adımları
 
 ### 1. Depoyu Klonlayın
 ```bash
@@ -44,9 +44,10 @@ cd client
 npm install
 npm start
 ```
-## 📂 Proje Yapısı
+##  📂 Proje Yapısı
 ```
 Lonca/
+├── assets/               # Image dosyaları
 ├── client/               # Frontend dosyaları
 │   ├── src/              # React bileşenleri ve sayfalar
 │   ├── public/           # Statik dosyalar
@@ -59,7 +60,7 @@ Lonca/
 └── server.js             # Ana sunucu dosyası
 ```
 ---
-## 📂 Veri Tabanı Yapısı
+##  📂 Veri Tabanı Yapısı
 
 ### **Tablolar**
 
@@ -76,7 +77,7 @@ Lonca/
 - Tedarikçi adları ve benzersiz kimlik bilgileri bulunur.
 
 ---
-##  🌐 API Dokümantasyonu
+##   🌐 API Dokümantasyonu
 #### Dashboard
 GET /dashboard
 Dashboard verilerini döner.
@@ -98,9 +99,58 @@ Belirli bir tedarikçinin aylık satış verilerini döner.
 GET /sales/vendor-product-sales/:vendorId
 Belirli bir tedarikçinin ürün satış verilerini döner.
 
-## 📊 Ekran Görüntüleri
+# 📊 Ekran Görüntüleri
 
+## 🏠 HomePage
+![HomePage](assets/HomePage.png)
 
+## 🏠 HomePage2
+![HomePage](assets/HomePage2.png)
 
+**Açıklama:**
+- **En Çok Satan Tedarikçiye Direkt Geçiş:** HomePage üzerinde en çok satış yapan tedarikçiye tek bir tıklama ile gidilebilmektedir.
+- **Dinamik Sayfa Başlıkları:** Web sitesinin üst kısmındaki başlıklar, her sayfa ve satıcıya göre dinamik olarak değişmektedir.
+- **Bildirim Mekanizması:** Eğer backend servislerinde bir hata oluşursa, ekranın sağ üst köşesinde hata bildirimi yapılır.
 
+---
 
+## 🛒 Bütün Tedarikçi Görünümleri
+
+### 📈 Bütün Tedarikçi Grafiği 1
+![ButunTedarikci1](assets/ButunTedarikci1.png)
+
+### 📉 Bütün Tedarikçi Grafiği 2
+![ButunTedarikci2](assets/ButunTedarikci2.png)
+
+### 📊 Bütün Tedarikçi Grafiği 3
+![ButunTedarikci3](assets/ButunTedarikci3.png)
+
+**Açıklama:**
+- **Farklı Grafik Seçenekleri:** Grafiklerde bar, line ve area gibi farklı görselleştirme seçenekleri bulunmaktadır.
+
+---
+
+## 📦 Tedarikçi Detay Görünümleri
+
+### Tedarikçi Detay 1
+![Tedarikci1](assets/Tedarikci1.png)
+
+### Tedarikçi Detay 2
+![Tedarikci2](assets/Tedarikci2.png)
+
+### Tedarikçi Detay 3
+![Tedarikci3](assets/Tedarikci3.png)
+
+### Tedarikçi Detay 4
+![Tedarikci4](assets/Tedarikci4.png)
+
+### Tedarikçi Detay 5
+![Tedarikci4](assets/Tedarikci5.png)
+
+### Tedarikçi Detay 6
+![Tedarikci4](assets/Tedarikci6.png)
+
+**Açıklama:**
+- **Filtreleme Özelliği:** Veriler, tabloda dinamik olarak filtrelenebilmekte ve kullanıcının aradığı bilgilere hızlıca ulaşması sağlanmaktadır.
+- **Bilgi Bulunamaması Durumu:** Eğer bir tedarikçinin bilgisi bulunmuyorsa, sistem "Bilgi Bulunamadı" şeklinde bir uyarı mesajı gösterir.
+- **Tablo ve Grafiklerin Entegrasyonu:** Tedarikçi detay sayfaları hem grafik hem de tablo ile desteklenmiştir, bu sayede verilerin görselleştirilmesi ve analizi kolaylaştırılmıştır.

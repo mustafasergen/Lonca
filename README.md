@@ -45,6 +45,7 @@ npm install
 npm start
 ```
 ## 📂 Proje Yapısı
+```
 Lonca/
 ├── client/               # Frontend dosyaları
 │   ├── src/              # React bileşenleri ve sayfalar
@@ -56,7 +57,25 @@ Lonca/
 ├── .env                  # Ortam değişkenleri
 ├── package.json          # Backend bağımlılıkları
 └── server.js             # Ana sunucu dosyası
+```
+---
+## 📂 Veri Tabanı Yapısı
 
+### **Tablolar**
+
+#### 1. orders
+- Sipariş bilgilerini içerir.
+- Siparişte satılan ürünlerin detayları ve ödeme tarihleri yer alır.
+
+#### 2. products
+- Ürünlerin temel bilgilerini içerir.
+- Ürün adı ve hangi tedarikçiye ait olduğu belirtilir.
+
+#### 3. vendors
+- Tedarikçi bilgilerini içerir.
+- Tedarikçi adları ve benzersiz kimlik bilgileri bulunur.
+
+---
 ##  🌐 API Dokümantasyonu
 # Dashboard
 GET /dashboard
